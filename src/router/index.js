@@ -1,10 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../components/Telas/Home.vue';
-// Importe outras telas conforme necessário
+import Home from '../components/screens/Home.vue';
 
 const routes = [
   { path: '/', component: Home },
-  // Adicione outras rotas aqui
 ];
 
 const router = createRouter({
